@@ -1,0 +1,112 @@
+body {
+    background-color: #eef3f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+header h1, header p {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700;
+}
+
+/* Main Container Sections */
+section {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+/* Headings */
+h2 {
+    font-weight: 600;
+    color: #007bff;
+}
+
+/* Form Styling */
+form .form-label {
+    font-weight: 500;
+}
+
+form .form-control,
+form .form-select {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+form textarea.form-control {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+/* Chatbot Section */
+.chatbot-container {
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Lists */
+.list-group-item {
+    border: none;
+    background: #f8f9fa;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .chatbot-container {
+        height: 450px;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .chatbot-container {
+        height: 360px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
